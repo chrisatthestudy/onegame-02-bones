@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bones</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="Screen" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/bones.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <div id="main-header" class="page-header">
+        <h1>Bones</h1>
+        <h2>High-scoring dice game</h2>
+      </div>
+      <div id="board">
+        <div><p id="total-score-label">Total: 0</p></div>
+        <div id="score-board">
+          <div><p id="min-target-label" class="label">&nbsp;</p></div>
+          <div><p id="bonus-target-label" class="label">&nbsp;</p></div>
+          <div><p id="current-score-label" class="label">&nbsp;</p></div>
+        </div>
+        <div id="game-result-board">
+          <div><p id="final-score-label" class="label">&nbsp;</p></div>
+          <div><p id="intro-label" class="label">&nbsp;</p></div>
+          <div><p id="announcement-label" class="label">&nbsp;</p></div>
+        </div>
+        <div id="dice-table" class="row">
+          <div class="col size2of3">
+            <div class="row dice-row">
+              <div class="die col size1of3"><p id="die-1" class="die"><a class="die-link die-1-freeze" href="#">&nbsp;</a></p></div>
+              <div class="die col size1of3"><p id="die-2" class="die"><a class="die-link die-2-freeze" href="#">&nbsp;</a></p></div>
+              <div class="die col lastCol"><p id="die-3" class="die"><a class="die-link die-3-freeze" href="#">&nbsp;</a></p></div>
+            </div>
+            <div class="row dice-row">
+              <div class="die col size1of3"><p id="die-4" class="die"><a class="die-link die-4-freeze" href="#">&nbsp;</a></p></div>
+              <div class="die col size1of3"><p id="die-5" class="die"><a class="die-link die-5-freeze" href="#">&nbsp;</a></p></div>
+              <div class="die col lastCol"><p id="die-6" class="die"><a class="die-link die-6-freeze" href="#">&nbsp;</a></p></div>
+            </div>
+          </div>
+          <div class="col lastCol">
+            <p id="round-label">&nbsp;</p>
+            <p id="round-score-label">&nbsp;</p>
+          </div>
+        </div>
+        <div><p id="freeze-label" class="label highlight_2">&nbsp;</p></div>
+        <div id="controls">
+          <p><center><a class="button" id="roll-button" href="#">Start</a></center></p>
+        </div>
+        <div id="log"></div>
+      </div>
+      <div class="cite"><p>SFX by <a href="http://www.freesfx.co.uk/">freesfx.co.uk/</a></p></div>
+      <div><p><a class="return button" href="http://games.cyberealms.net/">Return to Games@The-Study</a></p></div>
+    </div>
+    <div id="logo"><a href="http://www.onegameamonth.com/"><img src="graphics/onegame_logo.png"></a></div>
+  </body>
+</html>
+
